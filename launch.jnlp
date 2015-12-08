@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>NumberAddition</title>
+        <vendor>Promero</vendor>
+        <homepage href=""/>
+        <description>NumberAddition</description>
+        <description kind="short">NumberAddition</description>
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="NumberAddition.jar" main="true"/>
+    </resources>
+    <application-desc main-class="my.numberaddition.NumberAdditionU">
+    </application-desc>
+</jnlp>
